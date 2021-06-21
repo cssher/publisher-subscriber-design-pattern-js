@@ -71,18 +71,20 @@ const p1Button = document.querySelector(".p1-btn");
 const p2Input = document.getElementById("p2-input");
 const p2Button = document.querySelector(".p2-btn");
 
-p1Button.addEventListener("click", (e) => {
-  let data = p1Input.value;
+document.addEventListener("DOMContentLoaded", () => {
+  p1Button.addEventListener("click", (e) => {
+    let data = p1Input.value;
 
-  newPubSub.publish("pub1", data);
-  p1Input.value = "";
-  newPubSub.publish("dataPublished", "p1");
-});
+    newPubSub.publish("pub1", data);
+    p1Input.value = "";
+    newPubSub.publish("dataPublished", "p1");
+  });
 
-p2Button.addEventListener("click", (e) => {
-  let data = p2Input.value;
+  p2Button.addEventListener("click", (e) => {
+    let data = p2Input.value;
 
-  newPubSub.publish("pub2", data);
-  p2Input.value = "";
-  newPubSub.publish("dataPublished", "p2");
+    newPubSub.publish("pub2", data);
+    p2Input.value = "";
+    newPubSub.publish("dataPublished", "p2");
+  });
 });
