@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap");
+
+body {
+  font-family: "Jura", sans-serif;
+  background-color: #202124;
+  color: aliceblue;
+  margin: auto;
+  width: auto;
+}
+
+.publishers {
+  border: 2px solid lightseagreen;
+}
+
+.subscribers {
+  border: 2px solid rgb(241, 255, 49);
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  font-weight: bolder;
+}
+
+.publish_section {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 15px;
+}
+
+.publisher_one .publisher_two {
+  border: 1px dotted dodgerblue;
+}
+
+input {
+  padding: 10px;
+  border-radius: 7px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 45px;
+  font-weight: bolder;
+  margin: 10px;
+  color: aliceblue;
+  background-color: rgb(255, 0, 0);
+  box-shadow: 0 0 4px 4px rgb(255, 148, 145);
+  cursor: pointer;
+  border: none;
+}
+
+.subscriber_section {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+ul {
+  height: 50%;
+  list-style: none;
+  overflow-y: scroll;
+  padding: 0px;
+}
+
+li {
+  color: yellow;
+  border: 2px dotted dodgerblue;
+  padding: 10px;
+  margin: 10px;
+}
+
+ul > li > span {
+  color: tomato;
+  font-weight: bolder;
+}
+
+.subscribed_to_btn {
+  background: rgb(255, 252, 47);
+  color: black;
+  padding: 5px;
+  box-shadow: none;
+}
+
+footer {
+  margin-top: 15px;
+  border: 2px solid orangered;
+}

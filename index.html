@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Publisher/Subscriber Pattern Demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="pubsub.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 style="text-align: center">
+        DEMO - PUBLISHER/SUBSCRIBER PATTERN IN JS
+      </h1>
+      <div class="publishers">
+        <h2>Publishers</h2>
+
+        <section class="publish_section">
+          <div class="publisher_one">
+            <p>Publisher 1</p>
+            <div action="" id="publisher-one">
+              <input type="text" id="p1-input" />
+              <button type="" class="p1-btn">PUBLISH</button>
+            </div>
+          </div>
+
+          <div class="publisher_two">
+            <p>Publisher 2</p>
+            <div action="" id="publisher-two">
+              <input type="text" id="p2-input" />
+              <button type="" class="p2-btn">PUBLISH</button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <br />
+
+      <div class="subscribers">
+        <h2>Subscribers</h2>
+
+        <section class="subscriber_section">
+          <div class="subscriber_one">
+            <div
+              style="
+                border: 1px solid mediumspringgreen;
+                padding: 5px;
+                font-weight: bolder;
+              "
+            >
+              <span>Subscriber-1 is Subscribed to P1 only.</span>
+            </div>
+
+            <ul id="s1-display-area"></ul>
+          </div>
+          <div class="subscriber_two">
+            <div
+              style="
+                border: 1px solid mediumspringgreen;
+                padding: 5px;
+                font-weight: bolder;
+              "
+            >
+              <span>Subscriber-2 is Subscribed to P1 & P2.</span>
+            </div>
+
+            <ul id="s2-display-area"></ul>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <footer>
+      <div class="stats_subscribers">
+        <h1 style="text-align: center; text-decoration: underline">
+          Publications Stats:
+        </h1>
+
+        <div style="text-align: center">
+          <p>
+            PUBLISHER 1: &nbsp;&nbsp;
+            <span
+              style="font-weight: bolder; color: mediumspringgreen"
+              id="p1-stats"
+              >0</span
+            >
+            items published.
+          </p>
+
+          <p>
+            PUBLISHER 2: &nbsp;&nbsp;
+            <span
+              style="font-weight: bolder; color: mediumspringgreen"
+              id="p2-stats"
+              >0</span
+            >
+            items published.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
