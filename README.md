@@ -1,4 +1,4 @@
-##Publisher/Subscriber design pattern in JavaScript 
+# Publisher/Subscriber design pattern in JavaScript.
 
 #### **Demo App ** - For visual reference - https://cssher.github.io/publisher-subscriber-design-pattern-js/
 
