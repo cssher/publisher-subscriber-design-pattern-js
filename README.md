@@ -12,4 +12,4 @@ A simple implementation of pub/sub design pattern (also known as Observer Patter
 
 *Pub/Sub pattern is basically a derivative of **Observer Design Pattern** where loose coupling is implemented between components and a broadcast/publication event will trigger the business logic contained within the subscribed component. *
 
-For further read please lookup [Addy Osmani's book Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript)
+For further read please lookup [Learning JavaScript Design Patterns by Addy Osmani's book](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript)
