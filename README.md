@@ -6,7 +6,7 @@
 ![Screenshot from 2021-06-21 18-38-00](https://user-images.githubusercontent.com/51695282/122769288-11db3880-d2c2-11eb-8909-564561e6ec57.png)
 
 
-A simple implementation of pub/sub design pattern (also known as Observer Pattern) in JS.
+A basic implementation of pub/sub design pattern (also known as Observer Pattern) in JS.
 
 
 
